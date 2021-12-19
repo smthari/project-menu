@@ -1,9 +1,8 @@
 import { React, useState } from "react";
-import "./index.css";
+import "../index.css";
 import Item from "./ProjectItems";
 import Navbar from "./Navbar";
 import Card from "./Card";
-
 
 // console.log(Item);
 
