@@ -1,10 +1,10 @@
 import "./index.css";
-import Resturant from "./Resturant";
+import Menu from "./Menu";
 
 function App() {
   return (
     <div className="App">
-      <Resturant />
+      <Menu />
     </div>
   );
 }

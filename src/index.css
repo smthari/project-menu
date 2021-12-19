@@ -85,10 +85,19 @@ button:hover {
   background-clip: border-box;
   border: 3px solid #d7d4ec;
   border-radius: 0.5rem;
+  overflow: hidden;
 }
 
 .card-img-top {
   filter: brightness(0.6);
+  overflow: hidden;
+}
+
+.card-img-top:hover {
+  filter: none;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  transform: scale(1.01);
 }
 
 .card-body {

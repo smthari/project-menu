@@ -1,4 +1,4 @@
-const Menu = [
+const Item = [
   {
     id: 1,
     image: "/images/blog2.png",
@@ -58,6 +58,14 @@ const Menu = [
   },
   {
     id: 8,
+    image: "/images/portfolio3.jpg",
+    name: "c smith",
+    category: "portfolio",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus  ",
+  },
+  {
+    id: 9,
     image: "/images/business2.png",
     name: "lans.io",
     category: "business",
@@ -65,7 +73,7 @@ const Menu = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus  ",
   },
   {
-    id: 9,
+    id: 10,
     image: "/images/ecommerce3.png",
     name: "eye",
     category: "ecommerce",
@@ -73,7 +81,7 @@ const Menu = [
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus  ",
   },
   /*  {
-      id: 10,
+      id: 11,
       image: "/images/agency1.png",
       name: "New item",
       category: "New category",
@@ -82,4 +90,4 @@ const Menu = [
     }, */
 ];
 
-export default Menu;
+export default Item;
