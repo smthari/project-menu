@@ -1,8 +1,8 @@
 import { React, useState } from "react";
-import "../index.css";
 import Item from "./ProjectItems";
 import Navbar from "./Navbar";
 import Card from "./Card";
+import "../index.css";
 
 // console.log(Item);
 
@@ -43,6 +43,7 @@ const Resturant = () => {
     <>
       {/* passing List state and filterItem function as props  */}
       <Navbar categoryList={categoryList} filterItem={filterItem} />
+
       {/* passing ProjectItem state as a props  */}
       <Card ProjectItem={ProjectItem} />
     </>
