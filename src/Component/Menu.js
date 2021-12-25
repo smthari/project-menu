@@ -20,7 +20,7 @@ const uniqueCategory = [
 
 // console.log(uniqueCategory);
 
-const Resturant = () => {
+const Menu = () => {
   const [ProjectItem, setProjectItem] = useState(Item);
   const [categoryList, setcategoryList] = useState(uniqueCategory);
 
@@ -50,4 +50,4 @@ const Resturant = () => {
   );
 };
 
-export default Resturant;
+export default Menu;
