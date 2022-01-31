@@ -80,14 +80,14 @@ const Item = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus  ",
   },
-  /*  {
-      id: 11,
-      image: "/images/agency1.png",
-      name: "New item",
-      category: "New category",
-      description:
-        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus  ",
-    }, */
+  {
+    id: 11,
+    image: "/images/p1.png",
+    name: "New item",
+    category: "New category",
+    description:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus  ",
+  },
 ];
 
 export default Item;
